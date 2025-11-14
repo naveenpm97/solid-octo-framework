@@ -33,12 +33,12 @@ public class BaseClass {
 		
 	}
 	
-	//@Parameters("browser")
+	
 	@BeforeClass(alwaysRun = true)
 		//launch browser
-		public void openBrowser(/*String br*/) throws IOException {
+		public void openBrowser() throws IOException {
 		
-		//String BROWSER =br;
+		
 		String BROWSER = System.getProperty("browser", futil.getDataFromProperty("browser"));
 		
 		if(BROWSER.equals("chrome")) {
