@@ -25,6 +25,7 @@ public class ToCreatePurchaseOrderTest extends BaseClass {
 	
 	// to create vendor
 	@Test(groups={"smoke","regression"})
+	
 	public void toCreateVendorTest() throws IOException {
 		VtigerHomePage VHP = new VtigerHomePage(wd);
 		VtigerVendorsPage VVP=new VtigerVendorsPage(wd);
