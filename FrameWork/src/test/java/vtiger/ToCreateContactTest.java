@@ -24,6 +24,7 @@ public class ToCreateContactTest extends BaseClass {
 	@Test(groups="smoke")
 	public void createContactTest() throws IOException {
 		VtigerHomePage VHP = new VtigerHomePage(wd);
+		
 		VtigerContactPage VCP = new VtigerContactPage(wd);
 		VtigerCreateNewContactPage VCNCP = new VtigerCreateNewContactPage(wd);
 		VtigerContactInformantionPage VCIP = new VtigerContactInformantionPage(wd);

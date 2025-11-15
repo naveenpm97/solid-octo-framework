@@ -27,6 +27,7 @@ public class ToCreateOpportunitiesWithOrganizationTest extends BaseClass{
 	public void createOpportunityWithOrganizationTest() throws IOException {
 		int randomNUM = jutil.getRandomNumber();
 		VtigerHomePage VHP=new VtigerHomePage(wd);
+		
 		VtigerOpportunitiesPage VOP=new VtigerOpportunitiesPage(wd);
 		VtigerAddNewOpportunityPage VANO=new VtigerAddNewOpportunityPage(wd);
 		VtigerOrganizationPage VOPP=new VtigerOrganizationPage(wd);
